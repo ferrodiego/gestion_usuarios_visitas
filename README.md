@@ -19,3 +19,7 @@ Proyecto en Python que permite:
 
 ```bash
 python main.py
+
+## 🖼️ Demostración
+
+![Demo del proyecto](https://github.com/ferrodiego/gestion_usuarios_visitas/blob/main/media/demo.png?raw=true)
