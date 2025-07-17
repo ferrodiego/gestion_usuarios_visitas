@@ -1,25 +1,37 @@
-# Sistema de Gestión de Usuarios y Visitas
+# 🗂️ gestor_usuarios_visitas
 
-Proyecto en Python que permite:
-- Registrar nuevos usuarios.
-- Iniciar sesión (y registrar cada acceso como visita).
-- Ver historial de visitas de cada usuario.
-- Cambiar la contraseña de un usuario.
-- Borrar todo el historial de visitas.
+Sistema básico en Python para gestionar usuarios, inicio de sesión y registrar historial de visitas en CSV.
 
-## Estructura de archivos
+Incluye funcionalidades como:
+- Registro de usuarios
+- Inicio de sesión
+- Cambio de contraseña
+- Filtrar historial de visitas
+- Borrar historial completo
 
-- `main.py` → Menú principal para ejecutar el programa.
-- `gestion_usuarios.py` → Funciones para registrar usuarios, inicio de sesión y cambio de contraseña.
-- `gestion_visitas.py` → Funciones para registrar visitas, filtrar visitas y borrar historial.
-- `usuarios.json` → Archivo que guarda usuarios y sus contraseñas.
-- `historial.csv` → Archivo que guarda el historial de visitas.
+Ideal para practicar lógica backend y manejo de archivos JSON y CSV en proyectos CLI.
 
-## Cómo ejecutar
-
-```bash
-python main.py
+---
 
 ## 🖼️ Demostración
 
 ![Demo del proyecto](https://github.com/ferrodiego/gestion_usuarios_visitas/blob/main/media/demo.png?raw=true)
+
+---
+
+## ⚙️ Tecnologías usadas
+
+- Python
+- JSON
+- CSV
+- Pathlib
+- datetime
+
+---
+
+## 🚀 Cómo ejecutar
+
+Asegúrate de tener Python 3 instalado.
+
+```bash
+python main.py
