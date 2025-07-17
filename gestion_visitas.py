@@ -57,6 +57,6 @@ def borrar_historial():
     """    
     if archivo_csv.exists():
         archivo_csv.unlink()
-        print('Historial borrado correctamente')
+        print('✅ Historial borrado correctamente')
     else:
         print('No hay historial para borrar')
