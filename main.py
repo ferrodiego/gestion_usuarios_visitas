@@ -14,22 +14,22 @@ def menu():
         opcion = input("Elige una opción: ")
         
         if opcion == '1':
-            nombre = input("\n Nombre de usuario: ")
+            nombre = input("\nNombre de usuario: ")
             clave = input("Clave: ")
             registrar_usuario(nombre, clave)
         
         elif opcion == '2':
-            nombre = input("\n Nombre de usuario: ")
+            nombre = input("\nNombre de usuario: ")
             clave = input("Clave: ")
             if inicio_sesion(nombre, clave):
                 registrar_visita(nombre)
         
         elif opcion == '3':
-            nombre = input("\n Nombre de usuario para filtrar visitas: ")
+            nombre = input("\nNombre de usuario para filtrar visitas: ")
             filtrar_visitas_por_usuario(nombre)
         
         elif opcion == '4':
-            nombre = input("\n Nombre de usuario: ")
+            nombre = input("\nNombre de usuario: ")
             cambiar_contrasenia(nombre)
 
         elif opcion == '5':
